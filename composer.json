@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kevinwheeler\\PrimevueDatatables\\": "src"
+            "Savannabits\PrimevueDatatables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kevinwheeler\\PrimevueDatatables\\Tests\\": "tests"
+            "Savannabits\\PrimevueDatatables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kevinwheeler\\PrimevueDatatables\\PrimevueDatatablesServiceProvider"
+                "Savannabits\\PrimevueDatatables\\PrimevueDatatablesServiceProvider"
             ],
             "aliases": {
                 "PrimevueDatatables": "kevinwheeler\\PrimevueDatatables\\PrimevueDatatablesFacade"
