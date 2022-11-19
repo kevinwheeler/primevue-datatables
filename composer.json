@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Savannabits\PrimevueDatatables\\": "src"
+            "Savannabits\\PrimevueDatatables\\": "src"
         }
     },
     "autoload-dev": {
