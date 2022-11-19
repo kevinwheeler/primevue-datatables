@@ -1,6 +1,6 @@
 {
-    "name": "savannabits/primevue-datatables",
-    "description": "Easy Laravel Server-Side implementation of PrimeVue Datatables",
+    "name": "kevinwheeler/primevue-datatables",
+    "description": "fork of the savannabits library for in-house use",
     "keywords": [
         "savannabits",
         "primevue-datatables",
@@ -9,13 +9,13 @@
         "datatables",
         "server-side"
     ],
-    "homepage": "https://github.com/savannabits/primevue-datatables",
+    "homepage": "https://github.com/kevinwheeler/primevue-datatables",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Sam Maosa",
-            "email": "maosa.sam@gmail.com",
+            "name": "Kevin Wheeler",
+            "email": "kevinwheeler90@gmail.com",
             "role": "Developer"
         }
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Savannabits\\PrimevueDatatables\\": "src"
+            "kevinwheeler\\PrimevueDatatables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Savannabits\\PrimevueDatatables\\Tests\\": "tests"
+            "kevinwheeler\\PrimevueDatatables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Savannabits\\PrimevueDatatables\\PrimevueDatatablesServiceProvider"
+                "kevinwheeler\\PrimevueDatatables\\PrimevueDatatablesServiceProvider"
             ],
             "aliases": {
-                "PrimevueDatatables": "Savannabits\\PrimevueDatatables\\PrimevueDatatablesFacade"
+                "PrimevueDatatables": "kevinwheeler\\PrimevueDatatables\\PrimevueDatatablesFacade"
             }
         }
     }
