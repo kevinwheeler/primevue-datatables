@@ -98,8 +98,13 @@ class Filter
             case self::NOT_CONTAINS:
                 if ($or) {
                     $q->orWhere($field, "NOT LIKE", "%" . $this->value . "%");
+                    //TODO should probably add orWhereNull like in the else block below.
                 } else {
-                    $q->where($field, "NOT LIKE", "%" . $this->value . "%");
+                    $val = $this->value;
+                    $q->where(function ($query) use ($field, $val) {
+                        $query->where($field, "NOT LIKE", "%" . $val . "%")
+                            ->orWhereNull($field);
+                    });
                 }
                 break;
             case self::ENDS_WITH:
