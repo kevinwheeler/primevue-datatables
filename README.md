@@ -1,3 +1,9 @@
+Please see https://github.com/savannabits/primevue-datatables/pull/12 for my (Kevin Wheeler)'s merged open source contributions to savannabits/primevue-datatables.
+
+----------------------------------------
+<br>
+<br>
+<br>
 # Laravel + PrimeVue Datatables
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/savannabits/primevue-datatables.svg?style=flat-square)](https://packagist.org/packages/savannabits/primevue-datatables)
