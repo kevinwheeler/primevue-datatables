@@ -1,6 +1,8 @@
-Please see https://github.com/savannabits/primevue-datatables/pull/12 for my (Kevin Wheeler)'s merged open source contributions to savannabits/primevue-datatables.
+# Kevin Wheeler's open source contribution to the savannabits/primevue-datatables library.
 
-----------------------------------------
+Please see https://github.com/savannabits/primevue-datatables/pull/12 for my (Kevin Wheeler)'s merged open source contributions.
+
+
 <br>
 <br>
 <br>
